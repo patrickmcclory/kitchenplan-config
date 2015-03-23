@@ -1,0 +1,84 @@
+groups:
+    - bash
+    - developer
+recipes:
+    global:
+        - dotfiles::sshconfig
+    mac_os_x:
+        - applications::omnigraffle
+        - sudoalt::default
+        - osxdefaults::dock_automatically_hide_and_show_the_dock
+        - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
+        - osxdefaults::dock_enable_spring_loading_for_all_dock_items
+        - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
+        - osxdefaults::dock_minimize_to_application
+        - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
+        - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
+        - osxdefaults::dock_position_the_dock_on_the_left_side
+        - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
+        - osxdefaults::dock_remove_the_animation_when_hiding_showing_the_dock
+        - osxdefaults::dock_remove_the_auto-hiding_dock_delay
+        - osxdefaults::menu_show_clock_with_date
+        - osxdefaults::set_computer_name
+attributes:
+    sublime_text_packages:
+        -
+            name: SideBarEnhancements
+            source: https://github.com/titoBouzout/SideBarEnhancements
+            branch: st3
+        -
+            name: GitGutter
+            source: https://github.com/jisaacks/GitGutter.git
+            branch: master
+        -
+            name: SCSS
+            source: https://github.com/MarioRicalde/SCSS.tmbundle.git
+            branch: SublimeText2
+        -
+            name: BracketHighlighter
+            source: https://github.com/facelessuser/BracketHighlighter.git
+            branch: ST3
+        -
+            name: Theme - Soda
+            source: https://github.com/buymeasoda/soda-theme/
+            branch: master
+        -
+            name: Base16
+            source: https://github.com/chriskempson/base16-textmate.git
+            branch: master
+        -
+            name: ApplySyntax
+            source: https://github.com/facelessuser/ApplySyntax.git
+            branch: ST3
+        -
+            name: Theme - Flatland
+            source: git://github.com/thinkpixellab/flatland.git
+            branch: master
+    sublime_text:
+        theme: "Soda Dark 3.sublime-theme"
+    dotfiles:
+        vimusers:
+            - root
+            - patrickmcclory
+        kdeploy:
+            hostname: dev
+    git:
+        name: Patrick McClory
+        email: patrick@dualspark.com
+    osxdefaults:
+        computername: pmdev
+    authorization:
+        sudo:
+            users:
+                - patrickmcclory
+            passwordless: true
+            include_sudoers_d: true
+    homebrewalt:
+        cask_apps:
+            - google-drive
+            - evernote
+            - vagrant-manager
+            - vagrant
+            - vmware-fusion
+            - virtualbox
+            - evernote

@@ -10,6 +10,10 @@ So what's here?  Here's the big hitlist of what I currently care about:
   * AWS CLI
   * Vagrant and VirtualBox
   * Sublime Text themes and packages
+* Blog admin stuff
+  * Transmit
+  * Git
+  * Sublime Text (again)
 * General Stuff
   * Google drive
   * Evernote
@@ -20,3 +24,4 @@ So what's here?  Here's the big hitlist of what I currently care about:
   * Lastpass
   * Join.me
   * Omnigraffle
+  * VMWare Fusion

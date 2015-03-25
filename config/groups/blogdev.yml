@@ -1,0 +1,14 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - applications::ssh_config
+    mac_os_x:
+        - applications::sublime_text_3
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+        cask_apps:
+            - transmit
+

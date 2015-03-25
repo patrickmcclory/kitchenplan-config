@@ -1,6 +1,7 @@
 groups:
     - bash
     - developer
+    - blogdev
 recipes:
     global:
         - dotfiles::sshconfig

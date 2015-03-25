@@ -5,7 +5,6 @@ recipes:
     global:
         - dotfiles::sshconfig
     mac_os_x:
-        - applications::omnigraffle
         - sudoalt::default
         - osxdefaults::dock_enable_spring_loading_for_all_dock_items
         - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
@@ -71,23 +70,7 @@ attributes:
             include_sudoers_d: true
     homebrewalt:
         apps:
-            - pyenv-virtualenv
-            - pyenv-virtualenvwrapper
-            - pyenv-pip-migrate
-            - speedtest_cli
-            - awscli
             - keybase
+            - speedtest_cli
         cask_apps:
-            - google-drive
-            - evernote
-            - vagrant-manager
-            - vagrant
             - vmware-fusion
-            - virtualbox
-            - evernote
-            - firefox
-            - lastpass
-            - python
-            - appcleaner
-            - snagit
-

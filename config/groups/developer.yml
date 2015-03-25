@@ -27,3 +27,13 @@ attributes:
             - git
             - git-extras
             - wget
+            - pyenv-virtualenv
+            - pyenv-virtualenvwrapper
+            - pyenv-pip-migrate
+            - awscli
+        cask_apps:
+            - vagrant-manager
+            - vagrant
+            - virtualbox
+            - python
+

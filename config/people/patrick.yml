@@ -1,4 +1,6 @@
 groups:
+    - general
+    - aws-dev
     - bash
     - developer
     - blogdev
@@ -55,18 +57,18 @@ attributes:
     dotfiles:
         vimusers:
             - root
-            - patrickmcclory
+            - patrick
         kdeploy:
             hostname: dev
     git:
         name: Patrick McClory
         email: patrick@dualspark.com
     osxdefaults:
-        computername: pmdev
+        computername: pmdev-mac
     authorization:
         sudo:
             users:
-                - patrickmcclory
+                - patrick
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
@@ -75,3 +77,7 @@ attributes:
             - speedtest_cli
         cask_apps:
             - vmware-fusion
+            - heroku-toolbelt
+            - python3
+            - prezi
+            - pandora

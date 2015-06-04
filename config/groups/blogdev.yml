@@ -9,6 +9,9 @@ attributes:
         apps:
             - git
             - git-extras
+            - aws-cli
         cask_apps:
             - transmit
+        gems:
+            - jekyll
 

@@ -80,6 +80,7 @@ attributes:
             - heroku-toolbelt
             - python3
             - prezi
+            - adobe-air
             - pandora
             - snagit
             - joinme

@@ -9,7 +9,7 @@ attributes:
         apps:
             - git
             - git-extras
-            - aws-cli
+            - awscli
         cask_apps:
             - transmit
         gems:

@@ -1,13 +1,7 @@
 groups:
     - general
 recipes:
-    global:
-        - dotfiles::gitconfig
-        - applications::ssh_config
-        - dotfiles::vim
-        - dotfiles::workspace
     mac_os_x:
-        - applications::gnu-tar
         - osxdefaults::set_computer_name
 attributes:
     homebrewalt:

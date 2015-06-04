@@ -18,6 +18,7 @@ attributes:
         cask_apps:
             - google-chrome
             - firefox
+            - clamxav
             - harvest
             - evernote
             - google-drive

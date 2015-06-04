@@ -1,0 +1,21 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - applications::ssh_config
+        - dotfiles::vim
+        - dotfiles::workspace
+    mac_os_x:
+        - applications::sublime_text_3
+        - applications::gnu-tar
+        - osxdefaults::set_terminal_profile
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - wget
+        cask_apps:
+            - vagrant
+            - vagrant-manager
+            - virtualbox
+            - mono-mdk

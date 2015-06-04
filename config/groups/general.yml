@@ -5,13 +5,14 @@ recipes:
         - dotfiles::vim
         - dotfiles::workspace
     mac_os_x:
-        - applications::sublime_text_3
         - applications::gnu-tar
         - osxdefaults::set_terminal_profile
         - osxdefaults::save_to_disk_not_to_iCloud_by_default
         - osxdefaults::save_screenshots_to_the_desktop
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::check_for_software_updates_daily
+        - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
+        - osxdefaults::set_computer_name
 attributes:
     homebrewalt:
         cask_apps:
@@ -23,3 +24,10 @@ attributes:
             - xmind
             - the-unarchiver
             - lastpass
+            - appcleaner
+        cask_fonts:
+            - ubuntu-mono-powerline
+            - ubuntu
+            - lato
+            - source-sans-pro
+            - montserrat

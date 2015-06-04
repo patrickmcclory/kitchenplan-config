@@ -4,24 +4,34 @@ This is a pretty straightforward (honestly, rip-off) of the [Kitchenplan](https:
 
 So what's here?  Here's the big hitlist of what I currently care about:
 
+* AWS Developer Stuff
+  * AWS Cli
+  * Vagrant
+  * Virtualbox
+  * Packer
 * Developer Stuff
   * Git
   * python tooling and setup
   * AWS CLI
   * Vagrant and VirtualBox
-  * Sublime Text themes and packages
+  * Kitematic
+  * Sublime Text 3
+  * Omnigraffle
 * Blog admin stuff
   * Transmit
   * Git
-  * Sublime Text (again)
+  * Sublime Text 3
+  * Jekyll Ruby Gem
 * General Stuff
   * Google drive
   * Evernote
   * Chrome
   * Firefox
   * Appcleaner
+  * X-Mind
+  * Lastpass
   * Snagit
   * Lastpass
   * Join.me
-  * Omnigraffle
   * VMWare Fusion
+  * Fonts that we use for presentations, etc.

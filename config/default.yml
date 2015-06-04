@@ -1,23 +1,22 @@
-recipes:                                       # Configs are parsed and every list is appended to each other, chef handles order and de-duplication
-    global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
-        - applications::create_var_chef_cache
-    mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
-        - homebrewalt::default
-        - applications::omnigraffle
+groups:
+    - general
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - applications::ssh_config
+        - dotfiles::vim
+        - dotfiles::workspace
+    mac_os_x:
+        - applications::gnu-tar
+        - osxdefaults::set_computer_name
 attributes:
     homebrewalt:
         cask_apps:
-            - google-drive
-            - evernote
             - google-chrome
             - firefox
-            - appcleaner
-            - snagit
-            - lastpass
-            - joinme
         cask_fonts:
-            - inconsolata
             - ubuntu-mono-powerline
             - ubuntu
             - lato
             - source-sans-pro
+            - montserrat

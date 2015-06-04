@@ -1,7 +1,7 @@
 groups:
     - general
-    - aws-dev
     - bash
+    - aws-dev
     - developer
     - blogdev
 recipes:
@@ -17,7 +17,6 @@ recipes:
         - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
         - osxdefaults::dock_remove_the_auto-hiding_dock_delay
         - osxdefaults::menu_show_clock_with_date
-        - osxdefaults::set_computer_name
 attributes:
     sublime_text_packages:
         -
@@ -81,3 +80,5 @@ attributes:
             - python3
             - prezi
             - pandora
+            - snagit
+            - joinme

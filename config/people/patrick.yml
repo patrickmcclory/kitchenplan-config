@@ -34,7 +34,7 @@ attributes:
         -
             name: BracketHighlighter
             source: https://github.com/facelessuser/BracketHighlighter.git
-            branch: ST3
+            branch: st3-2.7.1
         -
             name: Theme - Soda
             source: https://github.com/buymeasoda/soda-theme/
@@ -46,7 +46,7 @@ attributes:
         -
             name: ApplySyntax
             source: https://github.com/facelessuser/ApplySyntax.git
-            branch: ST3
+            branch: st3-2.0.1
         -
             name: Theme - Flatland
             source: git://github.com/thinkpixellab/flatland.git

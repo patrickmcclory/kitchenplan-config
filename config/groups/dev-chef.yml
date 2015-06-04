@@ -14,10 +14,10 @@ attributes:
             - git
             - git-extras
             - wget
+            - awscli
         cask_apps:
+            - chefdk
             - vagrant
             - vagrant-manager
             - virtualbox
-            - python
-            - omnigraffle
-            - kitematic
+

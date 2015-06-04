@@ -14,15 +14,11 @@ attributes:
             - git
             - git-extras
             - wget
-            - pyenv-virtualenv
-            - pyenv-virtualenvwrapper
-            - pyenv-pip-migrate
-            - awscli
         cask_apps:
+            - puppet
+        gems:
+            - librarian-puppet
             - vagrant
             - vagrant-manager
-            - vagrant-bar
             - virtualbox
-            - python
-            - packer
 

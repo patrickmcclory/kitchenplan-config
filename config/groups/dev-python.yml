@@ -13,8 +13,14 @@ attributes:
         apps:
             - git
             - git-extras
+            - pyenv-virtualenv
+            - pyenv-virtualenvwrapper
+            - pyenv-pip-migrate
             - wget
-            - awscli
         cask_apps:
-            - chefdk
+            - vagrant
+            - vagrant-manager
+            - virtualbox
+            - python
+            - python3
 

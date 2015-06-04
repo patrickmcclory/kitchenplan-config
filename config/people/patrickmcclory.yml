@@ -1,9 +1,9 @@
 groups:
     - general
     - bash
-    - aws-dev
+    - dev-aws
+    - dev-blog
     - developer
-    - blogdev
 recipes:
     global:
         - dotfiles::sshconfig
@@ -76,6 +76,7 @@ attributes:
             - speedtest_cli
         cask_apps:
             - vmware-fusion
+            - vagrant-bar
             - heroku-toolbelt
             - python3
             - prezi

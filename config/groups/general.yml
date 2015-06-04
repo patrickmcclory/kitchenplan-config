@@ -10,12 +10,9 @@ recipes:
         - osxdefaults::set_computer_name
 attributes:
     homebrewalt:
-        apps:
-            - clamav
         cask_apps:
             - google-chrome
             - firefox
-            - clamxav
             - harvest
             - evernote
             - google-drive

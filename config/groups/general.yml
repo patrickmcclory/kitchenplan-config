@@ -19,6 +19,7 @@ attributes:
             - xmind
             - the-unarchiver
             - lastpass
+            - slack
             - appcleaner
         cask_fonts:
             - ubuntu-mono-powerline

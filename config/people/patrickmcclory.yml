@@ -18,45 +18,10 @@ recipes:
         - osxdefaults::dock_remove_the_auto-hiding_dock_delay
         - osxdefaults::menu_show_clock_with_date
 attributes:
-    sublime_text_packages:
-        -
-            name: SideBarEnhancements
-            source: https://github.com/titoBouzout/SideBarEnhancements
-            branch: st3
-        -
-            name: GitGutter
-            source: https://github.com/jisaacks/GitGutter.git
-            branch: master
-        -
-            name: SCSS
-            source: https://github.com/MarioRicalde/SCSS.tmbundle.git
-            branch: SublimeText2
-        -
-            name: BracketHighlighter
-            source: https://github.com/facelessuser/BracketHighlighter.git
-            branch: st3-2.7.1
-        -
-            name: Theme - Soda
-            source: https://github.com/buymeasoda/soda-theme/
-            branch: master
-        -
-            name: Base16
-            source: https://github.com/chriskempson/base16-textmate.git
-            branch: master
-        -
-            name: ApplySyntax
-            source: https://github.com/facelessuser/ApplySyntax.git
-            branch: st3-2.0.1
-        -
-            name: Theme - Flatland
-            source: git://github.com/thinkpixellab/flatland.git
-            branch: master
-    sublime_text:
-        theme: "Soda Dark 3.sublime-theme"
     dotfiles:
         vimusers:
             - root
-            - patrick
+            - patrickmcclory
         kdeploy:
             hostname: dev
     git:
@@ -67,7 +32,7 @@ attributes:
     authorization:
         sudo:
             users:
-                - patrick
+                - patrickmcclory
             passwordless: true
             include_sudoers_d: true
     homebrewalt:

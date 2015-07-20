@@ -3,6 +3,8 @@ groups:
     - bash
     - dev-aws
     - dev-blog
+    - dev-chef
+    - dev-python
     - developer
 recipes:
     global:

@@ -17,6 +17,5 @@ attributes:
         gems:
             - librarian-puppet
             - vagrant
-            - vagrant-manager
             - virtualbox
 

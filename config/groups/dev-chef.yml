@@ -16,6 +16,5 @@ attributes:
         cask_apps:
             - chefdk
             - vagrant
-            - vagrant-manager
             - virtualbox
 

@@ -12,10 +12,8 @@ attributes:
             - git
             - git-extras
             - wget
-            - awscli
         cask_apps:
+            - go
             - vagrant
             - virtualbox
-            - python
-            - packer
 

@@ -43,7 +43,6 @@ attributes:
             - speedtest_cli
         cask_apps:
             - vmware-fusion
-            - vagrant-bar
             - heroku-toolbelt
             - python3
             - prezi
@@ -51,3 +50,5 @@ attributes:
             - pandora
             - snagit
             - joinme
+            - caffeine
+            - displaylink

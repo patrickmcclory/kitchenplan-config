@@ -4,6 +4,7 @@ groups:
     - dev-aws
     - dev-blog
     - dev-chef
+    - dev-go
     - dev-python
     - developer
 recipes:
@@ -43,7 +44,6 @@ attributes:
             - speedtest_cli
         cask_apps:
             - vmware-fusion
-            - heroku-toolbelt
             - python3
             - prezi
             - adobe-air

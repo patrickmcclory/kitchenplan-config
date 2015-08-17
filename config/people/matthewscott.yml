@@ -1,6 +1,0 @@
-groups:
-    - general
-    - poweruser
-attributes:
-    osxdefaults:
-        computername: matthewscott

@@ -35,7 +35,7 @@ attributes:
     authorization:
         sudo:
             users:
-                - patrickmcclory
+                - patrick
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
@@ -46,9 +46,5 @@ attributes:
             - vmware-fusion
             - python3
             - prezi
-            - adobe-air
-            - pandora
-            - snagit
-            - joinme
             - caffeine
             - displaylink

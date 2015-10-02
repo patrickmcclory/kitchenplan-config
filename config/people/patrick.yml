@@ -43,7 +43,6 @@ attributes:
             - keybase
             - speedtest_cli
         cask_apps:
-            - vmware-fusion
             - python3
             - prezi
             - caffeine

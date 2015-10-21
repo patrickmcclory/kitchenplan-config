@@ -24,14 +24,14 @@ attributes:
     dotfiles:
         vimusers:
             - root
-            - patrickmcclory
+            - patrick
         kdeploy:
             hostname: dev
     git:
         name: Patrick McClory
         email: patrick@dualspark.com
     osxdefaults:
-        computername: pmdev-mac
+        computername: pmdev-macbook15
     authorization:
         sudo:
             users:
@@ -40,7 +40,6 @@ attributes:
             include_sudoers_d: true
     homebrewalt:
         apps:
-            - keybase
             - speedtest_cli
         cask_apps:
             - python3

@@ -13,9 +13,7 @@ attributes:
         cask_apps:
             - google-chrome
             - firefox
-            - harvest
             - evernote
-            - google-drive
             - xmind
             - the-unarchiver
             - lastpass
